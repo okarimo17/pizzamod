@@ -1,0 +1,46 @@
+{
+    "particles": {
+        "number": {
+            "value": 20
+        },
+        "shape": {
+            "type": "image",
+            "image": {
+                "src": "./assets/pastas.png",
+                "width": 113,
+                "height": 37
+            }
+        },
+        "line_linked": {
+            "enable": false
+        },
+        "size": {
+            "value": 40
+        },
+        "move": {
+            "out_mode": "out",
+            "random": true,
+            "attract": {
+                "enable": true,
+                "rotateX": 3000,
+                "rotateY": 3000
+            }
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            },
+            "onclick": {
+                "enable": false
+            }
+        },
+        "modes": {
+            "repulse": {
+                "distance": 100
+            }
+        }
+    }
+}

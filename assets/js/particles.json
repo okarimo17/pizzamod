@@ -1,0 +1,110 @@
+{
+    "background": {
+        "color": {
+            "value": "#fff"
+        }
+    },
+    "fpsLimit": 60,
+    "interactivity": {
+        "detectsOn": "window",
+        "events": {
+            "onClick": {
+                "enable": true,
+                "mode": "push"
+            },
+            "onHover": {
+                "enable": true,
+                "mode": "repulse"
+            },
+            "resize": true
+        },
+        "modes": {
+            "bubble": {
+                "distance": 400,
+                "duration": 2,
+                "opacity": 0.8,
+                "size": 40
+            },
+            "push": {
+                "quantity": 4
+            },
+            "repulse": {
+                "distance": 200,
+                "duration": 0.4
+            }
+        }
+    },
+    "particles": {
+        "color": {
+            "value": "#ffffff"
+        },
+        "links": {
+            "color": "#ffffff",
+            "distance": 150,
+            "enable": false,
+            "opacity": 0.5,
+            "width": 1
+        },
+        "collisions": {
+            "enable": true
+        },
+        "move": {
+            "direction": "none",
+            "enable": true,
+            "outMode": "bounce",
+            "random": true,
+            "speed": 1,
+            "straight": true
+        },
+        "number": {
+            "density": {
+                "enable": true,
+                "value_area": 1500
+            },
+            "value": 80
+        },
+        "opacity": {
+            "value": 1
+        },
+        "shape": {
+            "type": "images",
+            "image": [
+                {
+                    "src": "./assets/shapes/1.png",
+                    "height": 46,
+                    "width": 122
+                },
+                {
+                    "src": "./assets/shapes/2.png",
+                    "height": 29,
+                    "width": 122
+                },
+                {
+                    "src": "./assets/shapes/3.png",
+                    "height": 76,
+                    "width": 99
+                },
+                {
+                    "src": "./assets/shapes/4.png",
+                    "height": 32,
+                    "width": 95
+                },
+                {
+                    "src": "./assets/shapes/5.png",
+                    "height": 27,
+                    "width": 45
+                },
+                {
+                    "src": "./assets/shapes/6.png",
+                    "height": 39,
+                    "width": 63
+                }
+            ]
+        },
+        "size": {
+            "random": false,
+            "value": 35
+        }
+    },
+    "detectRetina": true
+}
