@@ -99,7 +99,7 @@ function initSlidesv2() {
             nav: false,
             center: true,
             responsiveClass: true,
-            autoplay: false,
+            autoplay: true,
             items: 1,
             dots: false,
             navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
@@ -110,6 +110,10 @@ function initSlidesv2() {
                 $('.right_back').css({ "background-color": new_color })
                 $('.slide_float.active').removeClass('active')
                 floating_slides[index].classList.add('active')
+            },
+            onInitialized: (ev) => {
+                let new_color = $(".slider_list .owl-item.active > .item ").attr("data-color")
+                $('.right_back').css({ "background-color": new_color })
             }
         });
         $(".slide_btn.slide_left").click(() => {
@@ -149,7 +153,7 @@ function initProductsSlides() {
             nav: false,
             center: true,
             responsiveClass: true,
-            autoplay: false,
+            autoplay: true,
             items: 1,
             dots: false,
             navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],

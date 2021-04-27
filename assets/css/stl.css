@@ -1335,7 +1335,7 @@ div#tsparticles-js {
 }
 
  .right_back{
-    background-color: #89A026;
+    /* background-color: rgb(137,56,159); */
     border-radius: 10px 0 0 10px;
     display: flex;
     justify-content: center;
