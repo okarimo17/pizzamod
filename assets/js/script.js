@@ -100,6 +100,7 @@ function initSlidesv2() {
             center: true,
             responsiveClass: true,
             autoplay: true,
+            rewind: true,
             items: 1,
             dots: false,
             navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
@@ -155,6 +156,7 @@ function initProductsSlides() {
             responsiveClass: true,
             autoplay: true,
             items: 1,
+            rewind: true,
             dots: false,
             navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
             onTranslated: (event) => {
