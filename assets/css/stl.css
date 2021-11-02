@@ -2379,3 +2379,9 @@ transform: scale(1); } }
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+
+
+/* fixes */
+canvas.tsparticles-canvas-el {
+    position: unset!important;
+}
